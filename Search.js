@@ -212,7 +212,7 @@ jQuery.easing.jswing = jQuery.easing.swing;
         summaryLength: 100
       };
       (function (c) {
-        var a = c("#bsearch-box"),
+        var a = c("#searchform"),
             d = a.find(":text");
         config = searchFormConfig;
         a.append('<div id="search-result"></div>');
